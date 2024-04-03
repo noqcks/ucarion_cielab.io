@@ -55,7 +55,7 @@ export default function PaletteDisplay({
             </Tooltip>
           }
         >
-          <FontAwesomeIcon className="ml-2" icon={faQuestionCircle} />
+          <FontAwesomeIcon className="ml-2" icon={faQuestionCircle as IconProp} />
         </OverlayTrigger>
       </div>
       {shades.map((shade, shadeIndex) => (
