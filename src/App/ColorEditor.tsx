@@ -22,7 +22,7 @@ import {
 import {
   faCheckCircle,
   faTimesCircle
-} from "@fortawesome/free-regular-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Props {
