@@ -402,7 +402,7 @@ export default function App() {
                       </Tooltip>
                     }
                   >
-                    <FontAwesomeIcon className="ml-2" icon={faQuestionCircle} />
+                    <FontAwesomeIcon className="ml-2" icon={['far', 'question-circle']} />
                   </OverlayTrigger>
                 </small>
               </h3>
