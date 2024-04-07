@@ -145,7 +145,7 @@ export default function App() {
         variant={isHeaderTextWhite ? "dark" : "light"}
       >
         <Navbar.Brand href="/">
-          <FontAwesomeIcon icon={faPalette} />
+          <FontAwesomeIcon icon={faPalette as IconProp} />
         </Navbar.Brand>
 
         <Nav className="mr-auto">
