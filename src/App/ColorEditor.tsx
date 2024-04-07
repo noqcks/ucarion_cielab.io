@@ -20,8 +20,8 @@ import {
   RGB_BLACK
 } from "../color";
 import {
-  faCheckCircle,
-  faTimesCircle
+  faCheckCircle as farCheckCircle,
+  faTimesCircle as farTimesCircle
 } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -189,7 +189,7 @@ export default function ColorEditor({
             <div>Small Text</div>
             <div>
               <FontAwesomeIcon
-                icon={contrastRatio > 4.5 ? faCheckCircle : faTimesCircle}
+                icon={contrastRatio > 4.5 ? farCheckCircle : farTimesCircle}
               />
             </div>
             <div>
