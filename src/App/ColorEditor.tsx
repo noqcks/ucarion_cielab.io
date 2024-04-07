@@ -5,7 +5,7 @@ import React, {
   useEffect,
   useMemo
 } from "react";
-import InputGroup from "react-bootstrap/InputGroup";
+import { InputGroup } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import {
   RGB,
