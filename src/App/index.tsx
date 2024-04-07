@@ -160,7 +160,7 @@ export default function App() {
             About this tool
           </Nav.Link>
 
-          <Form className="ml-3" inline>
+          <Form className="ml-3" inline="true">
             <Form.Label
               className={isHeaderTextWhite ? "text-light" : "text-dark"}
             >
