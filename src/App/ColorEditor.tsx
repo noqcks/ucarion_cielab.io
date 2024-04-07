@@ -197,7 +197,7 @@ export default function ColorEditor({
             </div>
             <div>
               <FontAwesomeIcon
-                icon={contrastRatio > 7 ? faCheckCircle : faTimesCircle}
+                icon={contrastRatio > 7 ? farCheckCircle : farTimesCircle}
               />
             </div>
             <div>Large Text</div>
