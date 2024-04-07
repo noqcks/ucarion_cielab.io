@@ -291,7 +291,7 @@ export default function App() {
                       </Tooltip>
                     }
                   >
-                    <FontAwesomeIcon className="ml-2" icon={faQuestionCircle as IconProp} />
+                    <FontAwesomeIcon className="ml-2" icon={faQuestionCircle} />
                   </OverlayTrigger>
                 </small>
               </h3>
