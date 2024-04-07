@@ -219,9 +219,7 @@ export default function ColorEditor({
         }}
       >
         <InputGroup className="mb-3">
-          <InputGroup.Prepend>
-            <InputGroup.Text>HEX</InputGroup.Text>
-          </InputGroup.Prepend>
+          <InputGroup.Text>HEX</InputGroup.Text>
           <Form.Control
             value={rgbInput}
             onChange={handleRGBChange}
@@ -240,9 +238,7 @@ export default function ColorEditor({
           }}
         >
           <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text>L</InputGroup.Text>
-            </InputGroup.Prepend>
+            <InputGroup.Text>L</InputGroup.Text>
             <Form.Control
               value={lInput}
               onChange={(event: any) => handleLCHChange(event, "l")}
@@ -252,9 +248,7 @@ export default function ColorEditor({
           </InputGroup>
 
           <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text>C</InputGroup.Text>
-            </InputGroup.Prepend>
+            <InputGroup.Text>C</InputGroup.Text>
             <Form.Control
               value={cInput}
               onChange={(event: any) => handleLCHChange(event, "c")}
@@ -264,9 +258,7 @@ export default function ColorEditor({
           </InputGroup>
 
           <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text>H</InputGroup.Text>
-            </InputGroup.Prepend>
+            <InputGroup.Text>H</InputGroup.Text>
             <Form.Control
               value={hInput}
               onChange={(event: any) => handleLCHChange(event, "h")}
